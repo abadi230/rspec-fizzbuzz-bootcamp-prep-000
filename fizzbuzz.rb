@@ -8,7 +8,7 @@ def fizzbuzz(int)
     "Fizz"
     elsif divBy5
     "Buzz"
-    elsif divBy3 || divBy5
+    elsif divBy3 && divBy5
     "FizzBuzz"
     else
     nil
